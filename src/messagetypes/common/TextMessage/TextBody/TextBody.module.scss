@@ -1,0 +1,56 @@
+.textBodyContainer {
+  position: relative;
+}
+
+.messageWrapper {
+  word-break: break-word;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.WSPreWrap {
+  white-space: pre-wrap;
+}
+
+.overlayContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  pointer-events: none;
+  word-break: break-word;
+}
+
+.defaultEntity {
+background-color: #0000ff;
+}
+
+.entity-0 {
+background-color: #FF00FF;
+}
+
+.entity-1 {
+background-color:  #4CB25C;
+}
+
+.entity-2 {
+background-color: #f5a623;
+}
+
+.entity-3 {
+background-color: #FF0000 ;
+}
+
+.entity-4 {
+background-color: #4da1ff ;
+}
+
+.entity-5 {
+background-color:  #9400D3 ;
+}
+
+.entity-6 {
+background-color: #29bb9c;
+}

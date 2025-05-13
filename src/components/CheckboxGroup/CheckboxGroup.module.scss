@@ -1,0 +1,25 @@
+@import "../../data/styles/colors.scss";
+
+.checkboxContainer {
+    padding: 5px;
+    word-break: break-word;
+    width: 100%;
+    background-color: $card-bg;
+    border: 1px solid $border-light;
+}
+
+.checkboxWrapper {
+    display: block;
+    word-break: break-all;
+}
+
+.label {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.button {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 12px !important;
+}

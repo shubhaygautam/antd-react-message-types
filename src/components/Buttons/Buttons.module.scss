@@ -1,0 +1,12 @@
+.buttonsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 0px 5px !important;
+  font-size: 12px !important;
+  margin: 5px;
+  white-space: normal !important;
+}

@@ -1,0 +1,16 @@
+@import "../../../../../data/styles/colors.scss";
+
+.arrow {
+  font-size: 12px !important;
+  color: $font-color-light !important;
+  width: auto !important;
+  line-height: 1 !important;
+
+  &::before {
+    content: "" !important;
+  }
+
+  &:hover {
+    color: $font-color !important;
+  }
+}

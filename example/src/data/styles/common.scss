@@ -1,0 +1,110 @@
+@import "./colors.scss";
+
+p {
+  margin-bottom: 0 !important;
+  margin-top: 0;
+}
+
+.ori-text-center {
+  text-align: center;
+}
+
+.ori-font-xs {
+  font-size: 12px;
+}
+
+.ori-font-lg {
+  font-size: 20px;
+}
+
+.ori-font-light {
+    color: grey;
+  }
+
+.ori-font-bold {
+  font-weight: 600;
+}
+
+.ori-cursor-ptr {
+  cursor: pointer;
+}
+
+.ori-full-width {
+  width: 100%;
+}
+
+.ori-word-break-all {
+  word-break: break-all;
+}
+
+.ori-mt-tooltipOverlay {
+  .ant-tooltip-inner {
+    padding: 1px 4px;
+    min-height: 14px;
+    font-size: 11px;
+  }
+}
+
+.ori-pad-5 {
+  padding: 5px;
+}
+
+.ori-lr-pad-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.ori-lr-pad-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ori-lr-mrgn-5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ori-absolute {
+  position: absolute;
+}
+
+.ori-relative {
+  position: relative;
+}
+
+.ori-bg-default {
+  background-color: #f7f7f9;
+}
+
+/*---------------------- COMMON FLEX CLASSES --------------------- */
+
+.ori-flex {
+  display: flex;
+}
+
+.ori-flex-row {
+  display: flex !important;
+  flex-direction: row;
+}
+
+.ori-flex-column {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.ori-flex-ac {
+  align-items: center;
+}
+
+.ori-flex-jc {
+  //flex-justify-center
+  justify-content: center;
+}
+
+.ori-full-flex {
+  flex: 1;
+}
+
+.ori-uppercase {
+  text-transform: uppercase;
+}

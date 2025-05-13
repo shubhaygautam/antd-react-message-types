@@ -1,0 +1,21 @@
+@import "../../../data/styles/colors.scss";
+
+.botContainer {
+  padding: 15px 0px 0px 15px;
+  background-color: $default;
+  width: 375px;
+  max-width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background-image: url('../../../data/assets/background.png');
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.botBody {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 5px 25px 5px 20px;
+}

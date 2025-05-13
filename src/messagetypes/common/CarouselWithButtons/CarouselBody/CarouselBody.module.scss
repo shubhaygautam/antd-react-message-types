@@ -1,0 +1,22 @@
+@import "../../../../data/styles/colors.scss";
+
+.carouselBodyContainer {
+  word-break: break-all;
+}
+
+.carousel {
+  margin-bottom: 30px;
+}
+
+.slickDots {
+  bottom: -10px !important;
+  margin: 0 !important;
+  overflow-x: hidden;
+
+  li,
+  .slick-active {
+    button {
+      background-color: $border !important;
+    }
+  }
+}

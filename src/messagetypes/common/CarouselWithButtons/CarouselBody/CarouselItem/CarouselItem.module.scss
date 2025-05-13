@@ -1,0 +1,15 @@
+@import "../../../../../data/styles/colors.scss";
+
+.carouselItem {
+  width: 100%;
+  background-color: $card-bg;
+  border: 1px solid $border-light;
+}
+
+.imageContainer {
+  height: 200px;
+  background-color: $black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

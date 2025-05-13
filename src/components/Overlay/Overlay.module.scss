@@ -1,0 +1,31 @@
+@import "../../data/styles/colors.scss";
+
+.overlayContainer {
+    z-index: 9999999;
+    position: fixed;
+    flex: 1;
+    background-color: $overlay-bg;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
+
+.overlayBody {
+    position: relative;
+    background-color: $white;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.button {
+    position: absolute !important;
+    top: 10px;
+    right: 10px;
+}
