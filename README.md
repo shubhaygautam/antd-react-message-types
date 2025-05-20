@@ -2,7 +2,7 @@
 
 > A package of message types components for chatbot and their dashoboard 
 
-[![NPM](https://img.shields.io/npm/v/@oriserve-dashboard/react-message-types.svg)](https://www.npmjs.com/package/@oriserve-dashboard/react-message-types) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/antd-react-message-types.svg)](https://www.npmjs.com/package/antd-react-message-types) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 <!-- 
   - we are using Button, Carousel and Tooltip component from ant-design. if these component are not used in   parent project then you have to manually import css of these component from antd.
@@ -28,7 +28,7 @@
 ## Install
 
 ```bash
-npm install --save @oriserve-dashboard/react-message-types
+npm install --save antd-react-message-types
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ npm install --save @oriserve-dashboard/react-message-types
 ```jsx
 import React, { Component } from 'react'
 
-import { MyComponent } from '@oriserve-dashboard/react-message-types'
+import { MyComponent } from 'antd-react-message-types'
 
 class Example extends Component {
   render () {
@@ -59,4 +59,4 @@ git push
 
 ## License
 
-MIT © [vivek vaibhav](https://github.com/vivek1623)
+MIT © [Shubhay Gautam](https://github.com/shubhaygautam)
